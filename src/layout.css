@@ -1,0 +1,371 @@
+.savanna {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 106px);
+    width: 100%;
+    color: black;
+    min-height: 100vh;
+    background-image: url("./Savanna/savannah-background.jpg");
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #0f4c8163;
+}
+.header-savanna {
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    align-items: center;
+}
+.sound {
+    height: 31px;
+    background-size: cover;
+}
+.sound-on {
+
+    background-color: #c9ffe3;
+}
+.sound-off {
+
+    background-color: #ffc9c9;
+}
+
+.sound:hover {
+    cursor: pointer;
+}
+.close-savanna {
+    border: none;
+    background: none;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.close-savanna:hover {
+    cursor: pointer;
+}
+.star-container {
+    display: flex;
+}
+.star {
+    height: 40px;
+    min-width: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.star-win {
+    background-image: url("./Savanna/star-win.svg");
+}
+.star-err {
+    background-image: url("./Savanna/star.svg");
+}
+
+.main-savanna__container {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 140px auto;
+    max-width: 600px;
+    padding: 60px 0;
+    background-color: white;
+    border-radius: 5%;
+    height: 300px;
+    border: solid #0f4c81;
+}
+.intro-container p {
+    font-size: 19px;
+}
+.inputLevel__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+.inputLevel__container p {
+    margin: auto 10px;
+    font-size: 1rem;
+
+}
+.inputLevel{
+    margin: 10px
+}
+.inputLevel:hover {
+    cursor:pointer
+}
+.difficultyLevel {
+    color: #007bff;
+}
+
+.start-savanna {
+    width: 100px;
+}
+.name-savanna {
+    font-size: 40px;
+    letter-spacing: 13px;
+    margin-bottom: 50px;
+}
+
+.wordTranslate-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+.word {
+    font-size: 2rem;
+}
+
+.wordTranslate {
+    border: white solid 2px;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1rem;
+    outline: none;
+    margin-bottom: 10px;
+    color: #424242;
+}
+
+.wordTranslate:hover {
+    border: #0f4c81 solid 2px;
+    cursor: pointer;
+    color: black;
+    outline: none;
+}
+.correctAnswer {
+    background-color: #c9ffe3;
+}
+.wrongAnswer {
+    background-color: #ffc9c9;
+}
+.game-container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    outline: none;
+}
+
+.countDown-container {
+
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding:50px;
+}
+.timer{
+    color: #FFEB3B;
+}
+.img-keyboard{
+    width:60px;
+    margin:0 auto 20px;
+}
+.results-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 600px;
+    background-color: white;
+    padding: 20px 5px;
+    border-radius: 5%;
+    height: 500px;
+    border: solid #0f4c81;
+}
+
+.start-button {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 45px;
+}
+.modal {
+    display: block;
+    top: 120px;
+}
+.modal-content {
+    border: solid #0f4c81;
+}
+.timer {
+    font-size: 60px;
+    margin-top: 110px;
+    margin-bottom: 200px;
+}
+.instruction{
+    margin-top: 50px;
+}
+
+.results-button {
+    width: 300px;
+    margin: 10px auto;
+}
+.result {
+    height: 65%;
+    height: 65%;
+    overflow: auto;
+    margin: 0 95px;
+}
+.result-detailed {
+    text-align: left;
+}
+.audioWord-button{
+    margin: 0 10px 10px 0;
+    border-radius: 10px;
+    outline: none;
+}
+.audioWord-button:focus{
+    outline: none;
+}
+.audioWord-button:hover{
+    background-color:#0f4c8163
+}
+
+.audioWord{
+    display: inline-block;
+    height: 20px;
+    margin: 3px 0;
+}
+
+.error__title {
+    color: red;
+    text-align: center;
+}
+.right-answers__title {
+    color: green;
+    text-align: center;
+}
+.carousel {
+    height: 15px;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.carousel_active {
+    background-color: #343a40;
+}
+.result-link {
+    font-size:20px;
+    margin-top:20px;
+    color:#0f4c81;
+    text-decoration: underline;
+    outline: none;
+}
+
+
+.result-link:hover {
+    cursor: pointer;
+}
+
+.marquee {
+    height: 400px;
+    white-space: nowrap;
+    outline: none;
+}
+
+.studiedWord {
+    color: #FFEB3B;
+    font-size: 40px;
+    outline: none;
+    display: inline-block;
+    padding-top: 20%;
+    -webkit-animation: marquee 10s infinite linear;
+    animation: marquee 5s infinite linear;
+}
+
+@-webkit-keyframes marquee {
+    0% {
+        -webkit-transform: translate(0, -100%);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+    }
+}
+@keyframes marquee {
+    0% {
+        transform: translate(0, -100%);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.disabled {
+    pointer-events: none;
+}
+.levelContainer {
+    height: 100px;
+}
+.progress-element {
+    margin: 60px auto 0;
+    border-radius: 50%;
+    border: solid black 1px;
+}
+.level-1 {
+    width: 15px;
+    height: 15px;
+    background-color: #fff673;
+}
+.level-2 {
+    width: 20px;
+    height: 20px;
+    background-color: #cff93e;
+    transition: 0.8s;
+    transform: rotateY(180deg);
+}
+.level-3 {
+    width: 25px;
+    height: 25px;
+    background-color: #98b72e;
+    transition: 0.8s;
+    transform: rotateY(360deg);
+}
+.level-4 {
+    width: 30px;
+    height: 30px;
+    background-color: #db37bc;
+
+    transition: 0.8s;
+    transform: rotateY(180deg);
+}
+.level-5 {
+    width: 35px;
+    height: 35px;
+    background-color: #9f69d6;
+    transition: 0.8s;
+    transform: rotateY(360deg);
+}
+.level-6 {
+    width: 40px;
+    height: 40px;
+    background-color: #3a0470;
+    transition: 0.8s;
+    transform: rotateY(180deg);
+}
+.level-7 {
+    width: 45px;
+    height: 45px;
+
+    background-color: #3216b0;
+    transition: 0.8s;
+    transform: rotateY(360deg);
+}
+.level-8 {
+    width: 50px;
+    height: 50px;
+    background-color: #1b0773;
+    transition: 0.8s;
+    transform: rotateY(180deg);
+}
+.home-page__link{
+    color:white;
+}
+.home-page__link:hover{
+    color:white;
+    text-decoration: none;
+}

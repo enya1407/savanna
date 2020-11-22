@@ -1,0 +1,122 @@
+.instruction {
+    background-color: #faf8e9;
+    border: white solid 2px;
+    border-radius: 20px;
+}
+@media (max-width: 1000px) {
+    .intro-container{
+        padding: 0
+    }
+}
+@media (max-width: 800px) {
+    .studiedWord {
+        font-size: 25px;
+    }
+    .wordTranslate {
+        padding: 6px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .countDown-container {
+        padding:0
+    }
+    .timer {
+        font-size: 50px;
+        margin-top: 50px;
+    }
+    .img-keyboard{
+        width:40px;
+        margin:0 auto 10px;
+    }
+    .instruction{
+        font-size: 10px;
+    }
+    .name-savanna {
+        font-size: 35px;
+        letter-spacing: 10px;
+    }
+    .result {
+        font-size: 0.8rem;
+        margin: 0 30px;
+    }
+    .results-container h3,
+    .result-detailed h4 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .main-savanna__container {
+        padding: 10px;
+    }
+
+    .name-savanna {
+        font-size: 25px;
+        letter-spacing: 8px;
+        margin-bottom: 20px;
+    }
+    .sound {
+        height: 25px;
+        font-size: 12px;
+    }
+    .intro-container{
+        padding: 20px 0;
+    }
+
+    .intro-container p {
+        font-size: 13px;
+    }
+    .inputLevel__container p{
+        font-size: 12px;
+    }
+    .start-button {
+        width: 150px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+    .close-savanna {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+    .result {
+        font-size: 0.8rem;
+        margin: 0 30px;
+    }
+    .results-container {
+        border-radius: 2%;
+    }
+    .results-container h3,
+    .result-detailed h4 {
+        font-size: 1rem;
+    }
+    .result-detailed p {
+        font-size: 0.8rem;
+    }
+    .results-button {
+        font-size: 15px;
+        width: 200px;
+        margin: 5px auto;
+    }
+
+    .countDown-container {
+        padding:0
+    }
+
+    .wordTranslate-container {
+        flex-direction: column;
+    }
+
+    .wordTranslate {
+        padding: 3px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .wordTranslate:hover {
+        border: white solid 2px;
+    }
+    .star {
+        height: 30px;
+        min-width: 30px;
+    }
+}
